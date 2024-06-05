@@ -1,0 +1,8 @@
+[package]
+name = "ASTCount"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+syn = { version = "1.0.103", features = ["full", "visit", "visit-mut"] }
+proc-macro2 = "1.0.66"
